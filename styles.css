@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+html {
+    font-family: 'Oswald';
+    margin: 0;
+    padding: 0;
+    background-color: rgb(144, 203, 243);
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    word-spacing: 15px;
+    border-bottom: 5px solid white;
+}
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    border-bottom: 5px solid white;
+    margin-top: 25px;
+    border-radius: 0 0 20px 0;
+}
+.image {
+    max-width: 100%;
+    flex-basis: 40%;
+}
+.main {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.player {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.gallery {
+    display: block;
+}
+.gallery img {
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 3px;
+    width: 200px;
+    height: 200px;
+}
+.gallery img:hover {
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.gallery h3 {
+    margin-left: 5px;
+}
+.portfolio {
+    margin: 5px;
+}
